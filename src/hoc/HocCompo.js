@@ -14,10 +14,7 @@ return(
     <h1>Multipy COMPONENT</h1>
    <h1 style={{background:'black',color:'white',width:400,display:'inline-block',margin:20,borderRadius:30}}> <props.value count={count} increment={increment} heading='this is person one' /></h1>
     <h1 style={{background:'green',width:400,display:'inline-block',borderRadius:30}}><props.value count={count} increment={increment} heading='this is person one copy' /></h1>
-    {/* <props.value  heading='this is person one' /> */}
-  {/* <h1>  <props.value decrement={decrement} data={data} headings='this is person two'/></h1> */}
-  {/* <h1>  <props.value decrement={decrement} data={data} headings='this is person two'/></h1> */}
-    
+   
     </>
 )
 
